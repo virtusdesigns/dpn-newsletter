@@ -28,7 +28,8 @@ table {
 /* ------------------------------------- 
 		ELEMENTS 
 ------------------------------------- */
-a { color: #ff3a1a;}
+a { color: #ff3a1a; text-decoration: none;
+}
 
 .btn {
 	text-decoration:none;
@@ -42,13 +43,18 @@ a { color: #ff3a1a;}
 	cursor:pointer;
 	display: inline-block;
 }
+.btn:hover {
+	background-color: #b3b3b3;
+}
 .btn.feature {
 	background: #ff3a1a;
 	margin: 15px 0 30px;
 }
-
+.btn.feature:hover {
+	background: #A21E08;
+}
 p.callout {
-	padding:0 15px;
+	padding:0 15px 0 0;
 	margin: 30px 0 0;
 	color: #898989;
 	font-size: 12px;
@@ -56,6 +62,9 @@ p.callout {
 .callout a {
 	font-weight:bold;
 	color: #ff3a1a;
+}
+.callout a:hover {
+	color: #A21E08;
 }
 
 /* ------------------------------------- 
@@ -73,6 +82,7 @@ table.head-wrap { width: 100%;}
 table.body-wrap { width: 100%;}
 
 .body-wrap #hero.content {
+	padding-top: 0;
 	padding-left: 0;
 	padding-right: 0;
 }
@@ -169,7 +179,8 @@ div.sidebar a {
 	font-weight: bold;
 }
 div.sidebar a:hover {
-	text-decoration: underline;
+	color: #ffffff;
+	background: #A21E08;
 }
 div.sidebar img {
 	width: 100%;
@@ -195,7 +206,7 @@ table.social {
 	text-decoration: none;
 }
 .social a:hover {
-	text-decoration: underline;
+	color: #ffffff;
 }
 
 .social .soc-btn {
@@ -259,7 +270,7 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
 	width: 300px;
 	float:left;
 }
-.column tr td { padding: 15px; }
+.column tr td { padding: 15px 15px 15px 0; }
 .column-wrap { 
 	padding:0!important; 
 	margin:0 auto; 
