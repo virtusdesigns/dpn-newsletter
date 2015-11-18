@@ -46,6 +46,9 @@ a { color: #ff3a1a; text-decoration: none;
 .btn:hover {
 	background-color: #b3b3b3;
 }
+.btn.last {
+	margin-bottom: 0;
+}
 .btn.feature {
 	background: #ff3a1a;
 	margin: 15px 0 30px;
