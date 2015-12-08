@@ -196,6 +196,9 @@ table.social {
 	background-color: #ff3a1a;
 	
 }
+table.social td {
+	padding: 15px 15px 15px 15px;
+}
 #sidebar-right.column .social-inner tbody tr td {padding: 15px 20px;}
 .social h4 {
 	color: #ffffff;
