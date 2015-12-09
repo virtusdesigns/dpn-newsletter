@@ -38,7 +38,7 @@ a { color: #ff3a1a; text-decoration: none;
 	padding:10px 14px;
 	font-weight:bold;
 	font-size: 10px;
-	margin: 0 0 20px;
+	margin: 0 0 30px;
 	text-align:center;
 	cursor:pointer;
 	display: inline-block;
@@ -51,7 +51,7 @@ a { color: #ff3a1a; text-decoration: none;
 }
 .btn.feature {
 	background: #ff3a1a;
-	margin: 15px 0 30px;
+	margin: 5px 0 30px;
 }
 .btn.feature:hover {
 	background: #A21E08;
